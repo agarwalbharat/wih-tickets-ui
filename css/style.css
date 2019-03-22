@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800,900');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: Montserrat-Regular, sans-serif;
+}
+
+@media print
+{
+body * { visibility: hidden; }
+#fullScreen * { visibility: visible; }
+#fullScreen { position: absolute; top: 40px; left: 30px; }
+}
+
+.mainVil {
+    width: 100%;
+    min-height: 100%;
+    background: #009bff;
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+    background: -o-linear-gradient(left, #0072ff, #00c6ff);
+    background: -moz-linear-gradient(left, #0072ff, #00c6ff);
+    background: linear-gradient(left, #0072ff, #00c6ff);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bordered {
+    border-radius: 7px;
+}
+
+.imgAnimate {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 44px;
+}
+
+.titleShow {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 44px;
+}
+
+.titleShowTicket{
+    padding-bottom: 10px;
+}
+.studentName{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.homeName{
+    display: block;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;;
+    font-size: 30px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.studentUID{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.details {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-30 {
+    border-radius: 30px;
+}
+
+.hoveranim:hover {
+    transform: scale(1.2);
+}
+
+.imageso {
+    max-width: 200px !important;
+}
+
+input {
+    text-align: center;
+}
+
+input#uid:focus {
+    border-bottom: 1px solid #2196F3 !important;
+    -webkit-box-shadow: 0 1px 0 0 #2196F3 !important;
+    box-shadow: 0 1px 0 0 #2196F3 !important;
+}
+
+input#Event_name:focus {
+    border-bottom: 1px solid #4CAF50 !important;
+    -webkit-box-shadow: 0 1px 0 0 #4CAF50 !important;
+    box-shadow: 0 1px 0 0 #4CAF50 !important;
+
+}
+
